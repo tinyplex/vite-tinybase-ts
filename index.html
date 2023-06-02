@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
+    />
+    <title>A TinyBase App</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <img id="logo" src="/favicon.svg" />
+    <h1>A TinyBase App</h1>
+    <div id="app">
+      <div id="buttons">
+        <button id="countButton">Increment number</button>
+        <button id="randomButton">Random number</button>
+        <button id="addPetButton">Add a pet</button>
+      </div>
+      <details open>
+        <summary>Values</summary>
+        <pre id="valuesJson"></pre>
+      </details>
+      <details open>
+        <summary>Tables</summary>
+        <pre id="tablesJson"></pre>
+      </details>
+    </div>
+    <script type="module" src="/src/index.ts"></script>
+  </body>
+</html>
