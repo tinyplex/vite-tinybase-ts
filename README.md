@@ -35,14 +35,16 @@ npm run dev
 
 ## Other templates
 
-There are four Vite templates for TinyBase, of which this is one:
+There are six templates for TinyBase, of which this is one:
 
-|     | Template                                                                     | Language   | React |
-| --- | ---------------------------------------------------------------------------- | ---------- | ----- |
-|     | [vite-tinybase](https://github.com/tinyplex/vite-tinybase)                   | JavaScript | No    |
-| 👉  | [vite-tinybase-ts](https://github.com/tinyplex/vite-tinybase-ts)             | TypeScript | No    |
-|     | [vite-tinybase-react](https://github.com/tinyplex/vite-tinybase-react)       | JavaScript | Yes   |
-|     | [vite-tinybase-ts-react](https://github.com/tinyplex/vite-tinybase-ts-react) | TypeScript | Yes   |
+|     | Template                                                                                       | Language   | React | Plus      |
+| --- | ---------------------------------------------------------------------------------------------- | ---------- | ----- | --------- |
+|     | [vite-tinybase](https://github.com/tinyplex/vite-tinybase)                                     | JavaScript | No    |           |
+| 👉  | [vite-tinybase-ts](https://github.com/tinyplex/vite-tinybase-ts)                               | TypeScript | No    |           |
+|     | [vite-tinybase-react](https://github.com/tinyplex/vite-tinybase-react)                         | JavaScript | Yes   |           |
+|     | [vite-tinybase-ts-react](https://github.com/tinyplex/vite-tinybase-ts-react)                   | TypeScript | Yes   |           |
+|     | [vite-tinybase-ts-react-crsqlite](https://github.com/tinyplex/vite-tinybase-ts-react-crsqlite) | TypeScript | Yes   | CR-SQLite |
+|     | [tinybase-ts-react-partykit](https://github.com/tinyplex/tinybase-ts-react-partykit)           | TypeScript | Yes   | PartyKit  |
 
 ## License
 
