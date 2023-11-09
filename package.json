@@ -11,6 +11,6 @@
     "vite": "^4.5.0"
   },
   "dependencies": {
-    "tinybase": "^4.3.24"
+    "tinybase": "^4.4.0"
   }
 }
