@@ -8,9 +8,9 @@
   },
   "devDependencies": {
     "typescript": "^5.3.3",
-    "vite": "^5.1.0"
+    "vite": "^5.1.4"
   },
   "dependencies": {
-    "tinybase": "^4.6.7"
+    "tinybase": "^4.6.11"
   }
 }
