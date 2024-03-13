@@ -7,10 +7,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^5.3.3",
-    "vite": "^5.1.4"
+    "typescript": "^5.4.2",
+    "vite": "^5.1.6"
   },
   "dependencies": {
-    "tinybase": "^4.6.11"
+    "tinybase": "^4.7.0"
   }
 }
