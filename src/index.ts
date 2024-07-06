@@ -1,5 +1,5 @@
 import './index.css';
-import { createStore, ValueOrUndefined } from 'tinybase/debug';
+import { createStore, ValueOrUndefined } from 'tinybase';
 
 // Convenience function for attaching an action to a button
 const onClick = (id: string, onClick: () => void) =>
