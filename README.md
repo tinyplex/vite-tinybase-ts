@@ -8,7 +8,7 @@ This is a [Vite](https://vitejs.dev/) template for a simple
 1. Make a copy of this template into a new directory:
 
 ```sh
-npx degit tinyplex/vite-tinybase-ts my-tinybase-app
+npx tiged tinyplex/vite-tinybase-ts my-tinybase-app
 ```
 
 2. Go into the directory:
