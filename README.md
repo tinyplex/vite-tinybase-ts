@@ -3,6 +3,8 @@
 This is a [Vite](https://vitejs.dev/) template for a simple
 [TinyBase](https://tinybase.org/) app, using TypeScript.
 
+<img width="847" alt="image" src="https://github.com/user-attachments/assets/27905b32-591b-4a70-b573-7cf063cf51c3">
+
 ## Instructions
 
 1. Make a copy of this template into a new directory:
@@ -30,8 +32,6 @@ npm run dev
 ```
 
 5. Go the URL shown and enjoy!
-
-![](https://tinybase.org/vite-tinybase.png)
 
 ## Other templates
 
