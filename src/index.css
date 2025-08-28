@@ -15,6 +15,10 @@ body {
   row-gap: 1rem;
 }
 
+a {
+  color: #bbb;
+}
+
 h1 {
   font-weight: 600;
   img {
@@ -99,6 +103,7 @@ table.sortedTable thead th {
     grid-template-columns: 1fr 1fr;
   }
   header,
+  p,
   #buttons {
     grid-column: span 2;
   }

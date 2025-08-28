@@ -1,5 +1,5 @@
 import './index.css';
-import { createStore, ValueOrUndefined } from 'tinybase';
+import {createStore, ValueOrUndefined} from 'tinybase';
 
 // Convenience function for attaching an action to a button
 const onClick = (id: string, onClick: () => void) =>
@@ -20,15 +20,15 @@ addEventListener('load', () => {
   onClick('countButton', () =>
     store.setValue(
       'counter',
-      (value: ValueOrUndefined) => ((value ?? 0) as number) + 1
-    )
+      (value: ValueOrUndefined) => ((value ?? 0) as number) + 1,
+    ),
   );
   onClick('randomButton', () => store.setValue('random', getRandom()));
   onClick('addPetButton', () =>
     store.addRow('pets', {
       name: ['fido', 'felix', 'bubbles', 'lowly', 'polly'][getRandom(5)],
       species: store.getRowIds('species')[getRandom(5)],
-    })
+    }),
   );
 
   // Bind listeners to all Values and Tables in the Store to print the content
@@ -38,12 +38,12 @@ addEventListener('load', () => {
   // Initialize the Store's data
   store
     .setValue('counter', 0)
-    .setRow('pets', '0', { name: 'fido', species: 'dog' })
+    .setRow('pets', '0', {name: 'fido', species: 'dog'})
     .setTable('species', {
-      dog: { price: 5 },
-      cat: { price: 4 },
-      fish: { price: 2 },
-      worm: { price: 1 },
-      parrot: { price: 3 },
+      dog: {price: 5},
+      cat: {price: 4},
+      fish: {price: 2},
+      worm: {price: 1},
+      parrot: {price: 3},
     });
 });
